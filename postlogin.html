@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Management - Dashboard</title>
+  <link rel="stylesheet" href="postlogin.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="account-info">
+        <h2>Account</h2>
+        <p>PRANAV TODKAR</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#" id="businesses-link">Businesses</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="businesses-section" class="hidden">
+      <h2>Businesses</h2>
+      <ul class="business-list">
+        <!-- Business items will be dynamically generated here -->
+      </ul>
+    </section>
+
+    <section id="business-details" class="hidden">
+      <h2>Business Name</h2>
+      <div class="business-options">
+        <a href="#" id="expenses-link">Expenses</a>
+        <a href="#" id="revenue-link">Revenue</a>
+        <a href="#" id="profit-link">Profit</a>
+      </div>
+
+      <div id="expenses-section" class="hidden">
+        <!-- Expenses section content -->
+      </div>
+
+      <div id="revenue-section" class="hidden">
+        <!-- Revenue section content -->
+      </div>
+
+      <div id="profit-section" class="hidden">
+        <!-- Profit section content -->
+      </div>
+    </section>
+  </main>
+
+  <script src="postlogin.js"></script>
+</body>
+</html>
